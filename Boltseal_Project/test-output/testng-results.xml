@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Screenshot taken]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot taken]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-07T14:41:27 IST" name="Suite" finished-at="2021-03-07T14:42:09 IST" duration-ms="42358">
+    <groups>
+    </groups>
+    <test started-at="2021-03-07T14:41:27 IST" name="Test" finished-at="2021-03-07T14:42:09 IST" duration-ms="42358">
+      <class name="com.boltseal.scripts.LoginTest">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:com.boltseal.scripts.LoginTest@22ef9844]" started-at="2021-03-07T14:41:27 IST" name="preCondition" finished-at="2021-03-07T14:41:36 IST" duration-ms="8685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.beta.boltseal.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="InvalidSeal()[pri:0, instance:com.boltseal.scripts.LoginTest@22ef9844]" started-at="2021-03-07T14:41:36 IST" name="InvalidSeal" finished-at="2021-03-07T14:41:50 IST" duration-ms="14197" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidSeal -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.boltseal.scripts.LoginTest@22ef9844]" started-at="2021-03-07T14:41:50 IST" name="postCondition" finished-at="2021-03-07T14:41:50 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String)[pri:0, instance:com.boltseal.scripts.LoginTest@22ef9844]" started-at="2021-03-07T14:41:50 IST" name="preCondition" finished-at="2021-03-07T14:41:56 IST" duration-ms="5782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.beta.boltseal.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="validSeal()[pri:0, instance:com.boltseal.scripts.LoginTest@22ef9844]" started-at="2021-03-07T14:41:56 IST" name="validSeal" finished-at="2021-03-07T14:42:09 IST" duration-ms="13351" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Screenshot taken]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validSeal -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.boltseal.scripts.LoginTest@22ef9844]" started-at="2021-03-07T14:42:09 IST" name="postCondition" finished-at="2021-03-07T14:42:09 IST" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.boltseal.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
